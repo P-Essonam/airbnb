@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="./js/main.js" defer></script>
+</head>
+<body class="bg-white min-h-screen">
+
+    <section class="flex justify-center items-center bg-header-light p-4 border-b border-slate-200">
+        <h1 class="text-lg">
+            En savoir plus sur les coups de coeur de voyage
+        </h1>
+    </section>
+
+    <header class="flex-col justify-center items-center sticky top-0 z-10 bg-white">
+        <div class="flex justify-between items-center border-b border-slate-200  px-12">
+            <div class="flex justify-start items-center">
+                <img src="./img/Sans titre.png" alt="" class="h-1/2 w-1/2">
+            </div>
+    
+            <div class="flex justify-between items-center border border-header-light rounded-full p-3 shadow-md cursor-pointer">
+                <div class=" font-semibold">
+                    N'importe ou
+    
+                    <span class="border-r border-slate-300 mx-2"></span>
+                </div>
+                
+                <div class=" font-semibold">
+                    Une semaine
+                    <span class="border-r border-slate-300 mx-2"></span>
+                </div>
+    
+                <div class="text-slate-600">
+                    Ajouter des voyageurs
+    
+                    <span class="mx-2 bg-red-600 rounded-full p-1 px-2 text-white roud">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                </div>
+    
+            </div>
+    
+            <div class="flex justify-between items-center px-4 space-x-4">
+                <div class="hover:bg-slate-500 p-2 rounded-full font-semibold">
+                    Mettre mon logement sur Airbnb
+                </div>
+                <div class="hover:bg-slate-500 p-2 rounded-full">
+                    <i class="fa-solid fa-globe"></i>
+                </div>
+    
+                <div class="border border-slate-500 shadow-md space-x-2 px-4 py-2 rounded-3xl">
+                    <i class="fa-solid fa-bars"></i>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+    
+            </div>
+        </div>
+
+        <div class="flex justify-between items-center px-12 py-4">
+
+            <div class="flex-col items-center justify-center hover:underline hover:decoration-solid ml-4">
+                <span class="block text-center">
+                    <i class="fa-solid fa-industry"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Avec vue
+                </div>
+            </div>
+
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Chambres
+                </div>
+            </div>
+
+            <div class="flex-col justify-center items-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-book"></i>
+                </span>
+
+                <div class="font-medium text-sm">
+                    Villes emblematiques
+                </div>
+            </div>
+
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-industry"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Sur l'eau
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-brands fa-medium"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Fermes
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-flask"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Tours
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-burger-soda"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Luxes
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-ticket"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Granges
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-earth-americas"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Cabanes
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-brands fa-cloudflare"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Ski
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-business-time"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Wow!
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-shop"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Bord de mer
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-link"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Riads
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-sliders"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Tiny houses
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Penthaouses
+                </div>
+            </div>
+            <div class="flex-col items-center justify-center border-b border-white pb-3 hover:border-slate-800">
+                <span class="block text-center">
+                    <i class="fa-solid fa-plane"></i>
+                </span>
+                <div class="font-medium text-sm">
+                    Villes
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+
+    <div class="flex items-center justify-center">
+        <button class=" bg-black text-white rounded-full p-4 py-3 z-20 fixed bottom-12">
+            <span class="mr-2"><i><i class="fa-solid fa-map"></i></i></span>
+            Afficher la carte
+        </button>
+    </div>
+
+    <main class="flex-col mx-16 py-2 space-y-8">
+
+        <div class="flex justify-start items-center space-x-7">
+
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col justify-start items-start">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class="rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+
+
+        </div>
+
+        <div class="flex justify-start items-center space-x-7">
+
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-856426227159271984/original/0ab09926-a6ce-4845-8704-400b69acab90.jpeg?im_w=1200" 
+                class="h-1/6 rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col justify-start items-start">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-856426227159271984/original/0ab09926-a6ce-4845-8704-400b69acab90.jpeg?im_w=1200" 
+                class="rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-856426227159271984/original/0ab09926-a6ce-4845-8704-400b69acab90.jpeg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-856426227159271984/original/0ab09926-a6ce-4845-8704-400b69acab90.jpeg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/miso/Hosting-856426227159271984/original/0ab09926-a6ce-4845-8704-400b69acab90.jpeg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+
+
+        </div>
+
+        <div class="flex justify-start items-center space-x-7 mb-10">
+
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col justify-start items-start">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class="rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+            <div class="flex-col">
+                <img src="https://a0.muscache.com/im/pictures/9e020bde-6c8b-4198-9ece-40dfe1b98dfc.jpg?im_w=1200" 
+                class=" rounded-lg" alt="" >
+                <h5>Larba Ben Hassan, Maroc</h5>
+                <h5 class="text-slate-500 text-sm">Particulier</h5>
+                <h5 class="text-slate-500 text-sm">15-20 dec</h5>
+                <h5> 94€ <span class="text-slate-900">par nuit</span></h5>
+            </div>
+
+
+        </div>
+
+
+        <div class="block text-center justify-center items-center space-y-4">
+            <h5 class="text-xl">Poursuivez l'exploration des chambres</h5>
+            <button class="text-xl bg-black p-4 text-white rounded-xl">
+                Afficher plus
+            </button>
+        </div>
+
+
+    </main>
+
+    <footer class="flex-col space-y-8 bg-header-light pt-8 mt-8">
+
+        <div class="flex-col mx-16 space-y-4">
+
+            <h4 class="text-xl font-bold">Des idees pour vos prochaines escapades</h4>
+            <div class="border-b border-slate-600 pb-3">
+                <ul class="flex justify-between items-center w-1/2">
+                    <li><a href="#">Populaire</a></li>
+                    <li><a href="#">Sur la cote</a></li>
+                    <li><a href="#">Sports d'hiver</a></li>
+                    <li><a href="#">Montages</a></li>
+                    <li><a href="#">categories</a></li>
+                    <li><a href="#">Activites</a></li>
+                </ul>
+            </div>
+            <div class="flex-col space-y-4 mr-14">
+                <ul class="flex justify-between items-center">
+                    <li class="font-bold text-base">Aigues morte <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Aix-en-provences <span class="font-normal block">Locations de vacances avec piscines</span></li>
+                    <li class="font-bold text-base">Aix-les-baix <span class="font-normal block">Locations de chalet</span></li>
+                    <li class="font-bold text-base">Amsterdam <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Arzon <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Avigon <span class="font-normal block">Locations de vacances</span></li>
+                </ul>
+                <ul class="flex justify-between items-center">
+                    <li class="font-bold text-base">Aigues morte <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Aix-en-provences <span class="font-normal block">Locations de vacances avec piscines</span></li>
+                    <li class="font-bold text-base">Aix-les-baix <span class="font-normal block">Locations de chalet</span></li>
+                    <li class="font-bold text-base">Amsterdam <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Arzon <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Avigon <span class="font-normal block">Locations de vacances</span></li>
+                </ul>
+                <ul class="flex justify-between items-center">
+                    <li class="font-bold text-base">Aigues morte <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Aix-en-provences <span class="font-normal block">Locations de vacances avec piscines</span></li>
+                    <li class="font-bold text-base">Aix-les-baix <span class="font-normal block">Locations de chalet</span></li>
+                    <li class="font-bold text-base">Amsterdam <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Arzon <span class="font-normal block">Locations de vacances</span></li>
+                    <li class="font-bold text-base">Avigon <span class="font-normal block">Locations de vacances</span></li>
+                </ul>
+                
+            </div>
+
+        </div>
+
+        <div class="border-b border-black pt-3"></div>
+
+        <div class="flex items-start justify-between mx-16 w-3/4">
+            <ul class="space-y-2">
+                <li class="font-bold"><a href="#">Assistance</a></li>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">AirCover</a></li>
+                <li><a href="#">Lutte contre la discrimination</a></li>
+                <li><a href="#">Assistance handicap</a></li>
+                <li><a href="#">Options d'annulation</a></li>
+                <li><a href="#">J'ai un problème de voisinage</a></li>
+            </ul>
+            <ul class="space-y-2">
+                <li class="font-bold"><a href="#">Cover</a></li>
+                <li><a href="#">Mettez votre logement sur Airbnb</a></li>
+                <li><a href="#">AirCover pour les hôtes</a></li>
+                <li><a href="#">Ressources pour les hôtes</a></li>
+                <li><a href="#">Forum de la communauté</a></li>
+                <li><a href="#">Hébergement responsable</a></li>
+            </ul>
+            <ul class="space-y-2">
+                <li class="font-bold"><a href="#">Besoin d'assistance</a></li>
+                <li><a href="#">Newsroom</a></li>
+                <li><a href="#">Nouvelles fonctionnalités</a></li>
+                <li><a href="#">Carrières</a></li>
+                <li><a href="#">Investisseurs</a></li>
+                <li><a href="#">Cartes cadeaux</a></li>
+                <li><a href="#">Séjours d'urgence Airbnb.org</a></li>
+            </ul>
+        </div>
+
+        <div class="mx-16 border-t border-black flex justify-between items-center py-5">
+            <div class="flex items-center space-x-6">
+                <h5>&copy; 2023 Airbnb, Inc</h5>
+                <li><a href="#">Confifentalite</a></li>
+                <li><a href="#">Conditions generales</a></li>
+                <li><a href="#">Plan du site</a></li>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Infos de l'entreprise</a></li>
+            </div>
+            <div class="flex items-center space-x-3">
+                <div>
+                    <span><i class="fa-solid fa-globe"></i></span>
+                    Fancais
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-euro-sign"></i></span>
+                    Euro
+                </div>
+                <span><i class="fa-brands fa-facebook"></i></span>
+                <span><i class="fa-brands fa-instagram"></i></span>
+                <span><i class="fa-brands fa-github"></i></span>
+
+            </div>
+        </div>
+
+    </footer>
+    
+</body>
+</html>
