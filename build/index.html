@@ -6,7 +6,7 @@
     <title>Airbnb</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="./js/main.js" defer></script>
+    <script type="module" src="./js/main.js" defer></script>
 </head>
 <body class="bg-white min-h-screen">
 
@@ -363,42 +363,16 @@
 
             <h4 class="text-xl font-bold">Des idees pour vos prochaines escapades</h4>
             <div class="border-b border-slate-600 pb-3">
-                <ul class="flex justify-between items-center w-1/2">
-                    <li><a href="#">Populaire</a></li>
-                    <li><a href="#">Sur la cote</a></li>
-                    <li><a href="#">Sports d'hiver</a></li>
-                    <li><a href="#">Montages</a></li>
-                    <li><a href="#">categories</a></li>
-                    <li><a href="#">Activites</a></li>
+                <ul class="flex justify-between items-center w-1/2 js-ul title">
+                    <li class="removePointer">Populaire <div class="border-b-2 border-black relative left-0 top-3 hidden"></div></li>
+                    <li class="removePointer">Sur la cote <div class="border-b-2 border-black relative left-0 top-3 hidden"></div></li>
+                    <li class="removePointer">Sports d'hiver <div class="border-b-2 border-black relative left-0 top-3 hidden"></div></li>
+                    <li class="removePointer">Montages <div class="border-b-2 border-black relative left-0 top-3 hidden"></div></li>
+                    <li class="removePointer">categories <div class="border-b-2 border-black relative left-0 top-3 hidden"></div></li>
+                    <li class="removePointer">Activites <div class="border-b-2 border-black relative left-0 top-3 hidden"></div></li>
                 </ul>
             </div>
-            <div class="flex-col space-y-4 mr-14">
-                <ul class="flex justify-between items-center">
-                    <li class="font-bold text-base">Aigues morte <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Aix-en-provences <span class="font-normal block">Locations de vacances avec piscines</span></li>
-                    <li class="font-bold text-base">Aix-les-baix <span class="font-normal block">Locations de chalet</span></li>
-                    <li class="font-bold text-base">Amsterdam <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Arzon <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Avigon <span class="font-normal block">Locations de vacances</span></li>
-                </ul>
-                <ul class="flex justify-between items-center">
-                    <li class="font-bold text-base">Aigues morte <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Aix-en-provences <span class="font-normal block">Locations de vacances avec piscines</span></li>
-                    <li class="font-bold text-base">Aix-les-baix <span class="font-normal block">Locations de chalet</span></li>
-                    <li class="font-bold text-base">Amsterdam <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Arzon <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Avigon <span class="font-normal block">Locations de vacances</span></li>
-                </ul>
-                <ul class="flex justify-between items-center">
-                    <li class="font-bold text-base">Aigues morte <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Aix-en-provences <span class="font-normal block">Locations de vacances avec piscines</span></li>
-                    <li class="font-bold text-base">Aix-les-baix <span class="font-normal block">Locations de chalet</span></li>
-                    <li class="font-bold text-base">Amsterdam <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Arzon <span class="font-normal block">Locations de vacances</span></li>
-                    <li class="font-bold text-base">Avigon <span class="font-normal block">Locations de vacances</span></li>
-                </ul>
-                
-            </div>
+            <div class="mr-14 js-bottom-data grid grid-cols-6 grid-rows-3 gap-4"></div>
 
         </div>
 
