@@ -11,4 +11,30 @@
         cursor: pointer;
     }
 
+    .centerMenu{
+        display: block;
+        text-align: center;
+    }
+
+    .swiper-navBtn{
+        background: white;
+        border-radius: 100%;
+        color: black;
+        border: 1.5px solid slategrey;
+        z-index: 2;
+        padding: 0rem 0.5rem;
+        height: 1.5rem;
+
+    }
+ 
+
+    .swiper-navBtn::after, .swiper-navBtn::before{
+        font-size: 0.7rem;
+    }
+
+    .bd{
+        background: red;
+    }
+
+
 }

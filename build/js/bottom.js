@@ -522,8 +522,6 @@ export function F_bottomData(data,jsUl,titles) {
                }
                
            });
-
-           console.log(jsUl[index].classList)
            
        })
    }); 
